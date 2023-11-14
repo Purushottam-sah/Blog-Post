@@ -1,0 +1,8 @@
+button.btn.btn-success{
+    color: white;
+    padding: 4px 22px !important;
+}
+button.btn.btn-danger{
+    color: white;
+    padding: 4px 10px;
+}

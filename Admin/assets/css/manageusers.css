@@ -1,0 +1,35 @@
+#show-user{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 5%;
+    padding-left: 50px;
+    width: 100%;
+    position: relative;
+} 
+.users-table{
+    position: relative;
+}
+#show-user .users-table h2{
+    font-weight: 600;
+    color: #6902e3;
+}
+#show-user .users-table h2 {
+    color: #6902e3ed;
+    font-weight: 600;
+}
+.users-table .table-sm>:not(caption)>*>* {
+    padding: 10px 50px !important;
+}
+.bg-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 60vh;
+    content: "";
+    background: url(img/users/manageusers.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
